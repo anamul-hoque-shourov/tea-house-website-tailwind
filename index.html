@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .manrope-font {
+            font-family: "Manrope", serif;
+        }
+    </style>
+</head>
+<body class="manrope-font m-0 p-0">
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <div class="flex flex-col lg:flex-row justify-between items-center gap-10 pt-10 mb-20">
+            <div>
+                <h1 class="font-extrabold text-4xl md:text-6xl mb-5">It's good <br> tea time at The <br> Tea House</h1>
+                <p class="font-medium text-slate-600 w-4/5 mb-5">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <a href=""><button class="flex items-center gap-2 text-xl font-bold p-4 bg-gradient-to-r from-orange-400 to-orange-700 rounded-xl text-white">Explore More <img src="./images/arrow.png" alt=""> </button></a>
+            </div>
+            <div class="relative">
+                <img class="w-full" src="./images/banner.png" alt="">
+                <div class="flex justify-between items-center gap-3 px-2 py-2 md:px-5 lg:py-4 rounded-xl absolute bottom-1 left-30 bg-white shadow-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="size-6">
+                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <div>
+                        <h3 class="text-2xl font-bold">5.00</h3>
+                        <p class="text-slate-600">Trust Pilot Rating</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-20">
+            <h2 class="text-center text-4xl font-bold mb-5">Our Featured Products</h2>
+            <p class="text-center text-base mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. </p>
+            <div class="grid grid-cols-1 lg:grid-cols-4 justify-center items-center gap-10 mt-10">
+                <div class="flex flex-col justify-center items-center text-center bg-gradient-to-b from-slate-200 to-slate-50 px-2 py-4 rounded-xl">
+                    <img class="mb-5" src="./images/tea-1.png" alt="">
+                    <h3 class="text-xl font-bold">Vanilla Tea</h3>
+                    <p class="text-sm">Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="flex flex-col justify-center items-center text-center bg-gradient-to-b from-slate-200 to-slate-50 px-2 py-4 rounded-xl">
+                    <img class="mb-5" src="./images/tea-2.png" alt="">
+                    <h3 class="text-xl font-bold">Strawberry Tea</h3>
+                    <p class="text-sm">Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="flex flex-col justify-center items-center text-center bg-gradient-to-b from-slate-200 to-slate-50 px-2 py-4 rounded-xl">
+                    <img class="mb-5" src="./images/tea-3.png" alt="">
+                    <h3 class="text-xl font-bold">Mixed Fruit Tea</h3>
+                    <p class="text-sm">Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="flex flex-col justify-center items-center text-center bg-gradient-to-b from-slate-200 to-slate-50 px-2 py-4 rounded-xl">
+                    <img class="mb-5" src="./images/tea-4.png" alt="">
+                    <h3 class="text-xl font-bold">Cold Tea</h3>
+                    <p class="text-sm">Creamer could be replaced by fresh milk</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
